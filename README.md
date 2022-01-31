@@ -1,6 +1,6 @@
 # Genetic_Algorithm
 
-## Function
+## Functions
 - selbest
 - selrand
 - crossov
@@ -15,7 +15,7 @@ Nums=[number of copies of the best string, ... ,
 The best string is the string with the lowest value of its objective
 
 
-## selrand
+### selrand
 The function selects randomly from the old population a required number
 of strings.
 
