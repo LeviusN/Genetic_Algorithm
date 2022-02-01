@@ -10,8 +10,7 @@
 The function copies from the old population into the new population
 required a number of strings according to their fitness. The number of the
 selected strings depends on the vector Nums as follows:
-Nums=[number of copies of the best string, ... ,
-            number of copies of the i-th best string, ...]
+Nums=[number of copies of the best string, ... ,number of copies of the i-th best string, ...]
 The best string is the string with the lowest value of its objective
 
 
