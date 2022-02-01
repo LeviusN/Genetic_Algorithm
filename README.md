@@ -24,3 +24,5 @@ The function creates a new population of strings, which rises after
 1- to 4-point crossover operation of all (couples of) strings of the old
 population. The selection of strings into couples is either random or
 the neighbouring strings are selected, depending on the parameter sel.
+
+### muta
