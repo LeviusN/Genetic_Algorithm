@@ -5,6 +5,8 @@
 - selrand
 - crossov
 - muta
+- mutx
+- genpop
 
 ### selbest
 The function copies from the old population into the new population
@@ -26,3 +28,27 @@ population. The selection of strings into couples is either random or
 the neighbouring strings are selected, depending on the parameter sel.
 
 ### muta
+The function mutates the population of strings with the intensity
+proportional to the parameter rate from interval <0;1>. Only a few genes  
+from a few strings are mutated in the population. The mutations are realized
+by addition or substraction of random real-numbers to the mutated genes. The 
+absolute values of the added constants are limited by the vector Amp. 
+Next the mutated strings are limited using boundaries defined in 
+a two-row matrix Space. The first row of the matrix represents the lower 
+boundaries and the second row represents the upper boundaries of corresponding 
+genes.
+
+### mutx
+The function mutates the population of strings with the intensity
+proportional to the parameter rate from interval <0;1>. Only a few genes  
+from a few strings are mutated in the population. The mutated values are
+selected from the bounded real-number space, which is defined by the two-row 
+matrix Space. The first row of the matrix represents the lower boundaries and the 
+second row represents the upper boundaries of corresponding genes in the strings. 
+
+### genpop
+The function generates a population of random real-coded strings
+which items (genes) are limited by a two-row matrix Space. The first
+row of the matrix Space consists of the lower limits and the second row 
+consists of the upper limits of the possible values of genes. 
+%The length of the string is equal to the length of rows of the matrix Space.
